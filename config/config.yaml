@@ -25,7 +25,7 @@ crawler:
 
 # 推送模式选择
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: "incremental" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
@@ -68,15 +68,15 @@ notification:
   #    - Severe: Webhook abuse leading to security incidents (malicious messages, phishing links, etc.)
   #
   webhooks:
-    feishu_url: "" # 飞书机器人的 webhook URL
+    feishu_url: "https://www.feishu.cn/flow/api/trigger-webhook/674915564ec5125853c1afb2b4fdcb46" # 飞书机器人的 webhook URL
     dingtalk_url: "" # 钉钉机器人的 webhook URL
     wework_url: "" # 企业微信机器人的 webhook URL
     wework_msg_type: "markdown" # 企业微信消息类型：markdown(群机器人) 或 text(个人微信应用)
     telegram_bot_token: "" # Telegram Bot Token
     telegram_chat_id: "" # Telegram Chat ID
-    email_from: "" # 发件人邮箱地址
-    email_password: "" # 发件人邮箱密码或授权码
-    email_to: "" # 收件人邮箱地址，多个收件人用逗号分隔
+    email_from: "peterhe071@gmail.com" # 发件人邮箱地址
+    email_password: "pssb hqrj zkwr pjkl" # 发件人邮箱密码或授权码
+    email_to: "405994640@qq.com" # 收件人邮箱地址，多个收件人用逗号分隔
     email_smtp_server: "" # SMTP服务器地址（可选，留空自动识别）
     email_smtp_port: "" # SMTP端口（可选，留空自动识别）
     ntfy_server_url: "https://ntfy.sh" # ntfy服务器地址，默认使用公共服务，可改为自托管地址

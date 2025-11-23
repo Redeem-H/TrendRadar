@@ -2,51 +2,22 @@
 DeepSeek
 梁文锋
 
-华为
-鸿蒙
-HarmonyOS
-任正非
-
-比亚迪
-王传福
-
-大疆
-DJI
-
-宇树
-王兴兴
-
-智元
-灵犀
-稚晖君
-彭志辉
 
 爆火
 短视频
 热榜
+微博热搜
+抖音热榜
 
 新能源
 智己
 问界
 特斯拉
 
-字节
-bytedance
-张一鸣
-
-微软
-Microsoft
-
 英伟达
 NVIDIA
 黄仁勋
-
 AMD
-
-谷歌
-google
-gemini
-deepmind
 
 chatgpt
 openai
@@ -79,11 +50,6 @@ ai
 光刻机
 
 科技
-
-核能
-
-
-新质生产力
 
 A股
 上证
